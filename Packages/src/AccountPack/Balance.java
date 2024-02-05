@@ -1,4 +1,4 @@
-//this package can access for public.
+
 package AccountPack;
 
 public class Balance {
