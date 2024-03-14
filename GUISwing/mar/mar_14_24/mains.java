@@ -1,4 +1,4 @@
-package GUISwing.mar_14_24;
+package GUISwing.mar.mar_14_24;
 
 import javax.swing.JFrame;
 
