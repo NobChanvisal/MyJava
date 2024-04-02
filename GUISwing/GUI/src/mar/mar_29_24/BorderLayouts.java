@@ -34,11 +34,8 @@ public class BorderLayouts extends JFrame {
         add(greenPanel, BorderLayout.EAST);
         add(pinkPanel, BorderLayout.CENTER);
     }
-
     public static void main(String[] args) {
-    
             new BorderLayouts();  
-
     }
 }
 
