@@ -28,11 +28,11 @@ public class BorderLayouts extends JFrame {
         pinkPanel.setPreferredSize(new Dimension(100, 50));
 
         // Adding panels to different regions of the BorderLayout
-        add(redPanel, BorderLayout.NORTH);
-        add(bluePanel, BorderLayout.SOUTH);
-        add(yellowPanel, BorderLayout.WEST);
-        add(greenPanel, BorderLayout.EAST);
-        add(pinkPanel, BorderLayout.CENTER);
+        add(redPanel, BorderLayout.NORTH);//top
+        add(bluePanel, BorderLayout.SOUTH);//botton
+        add(yellowPanel, BorderLayout.WEST);//left
+        add(greenPanel, BorderLayout.EAST);//right
+        add(pinkPanel, BorderLayout.CENTER);//center
     }
     public static void main(String[] args) {
             new BorderLayouts();  
